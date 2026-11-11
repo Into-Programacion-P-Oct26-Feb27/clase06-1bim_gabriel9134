@@ -22,9 +22,9 @@ public class Ejemplo01 {
                 + "1. AND\n"
                 + "2. OR\n"
                 + "3. NOT");
-        opcion = entrada.nextInt();
+        opcion = entrada.nextInt(); //5
         
-        if (opcion > 0 && opcion <= 3) {
+        if (opcion > 0 && opcion <= 3) { //5 cvdzxc 
             if (opcion==1) {
                 System.out.printf("%s\n", "Trabajar con AND");
                 
@@ -44,3 +44,7 @@ public class Ejemplo01 {
     }
 
 }
+/*
+lo que deberia ingrsar un usuario paraw que me salga en pantalla trabajar con and
+debe igresar el 1.
+*/
